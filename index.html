@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vent it Out</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Vent it Out</h1>
+        </div>
+        <nav id="mainNav">
+            <ul>
+                <li id="active"><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Contact</a></li>
+                <li><a href="#contact">Info</a></li>
+            </ul>
+        </nav>
+        <button class="hamburger" id="hamburger" aria-label="Menu">
+            <span></span><span></span><span></span>
+        </button>
+    </header>
+
+    <main>
+        <!-- HERO SECTION -->
+        <section class="feature-section">
+            <div class="container">
+                <div class="content-left">
+                    <h2>Vent it Out: Smoke Intake Filtration System</h2>
+                    <p onclick="window.location.href='https://your-target-link.com'">
+                        We provide innovative solutions tailored to your specific needs.
+                        Our approach combines creativity with technical expertise to deliver
+                        results that matter. By integrating advanced airflow dynamics with
+                        sustainable materials, we ensure your workspace remains clear and
+                        compliant with the highest safety standards in the industry. <a href="#home">Learn More.</a>
+                    </p>
+                </div>
+
+                <div class="content-right">
+                    <div class="hero-slider">
+                        <div class="hero-slider-track">
+                            <div class="hero-slide active">
+                                <img src="lotm.jpg" alt="Slide 1">
+                            </div>
+                            <div class="hero-slide">
+                                <img src="lotm2.jpg" alt="Slide 2">
+                            </div>
+                            <div class="hero-slide">
+                                <img src="lotm3.jpg" alt="Slide 3">
+                            </div>
+                        </div>
+                        <button class="hero-prev" aria-label="Previous">&#10094;</button>
+                        <button class="hero-next" aria-label="Next">&#10095;</button>
+                        <div class="hero-dots">
+                            <span class="hero-dot active"></span>
+                            <span class="hero-dot"></span>
+                            <span class="hero-dot"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- MEMBERS SECTION -->
+        <!-- MEMBERS SECTION -->
+        <section class="section2">
+            <h2 class="section2-title">Members</h2>
+
+            <!-- Card data store — not rendered, just data -->
+            <div style="display:none">
+                <div class="carousel-card-data" data-img="lotm.jpg" data-alt="John dela Cruz"    data-name="John dela Cruz"    data-desc="SKibiI skibidi toielt ghafqjnrgqirp SKibiI skibidi toielt ghafqjnrgqirp SKibiI skibidi toielt ghafqjnrgqirp SKibiI skibidi toielt ghafqjnrgqirp"></div>
+                <div class="carousel-card-data" data-img="lotm.jpg" data-alt="Maria Santos"      data-name="Maria Santos"      data-desc="Head of materials science. Maria sourced and tested every sustainable material used in the Vent it Out prototype."></div>
+                <div class="carousel-card-data" data-img="lotm.jpg" data-alt="Carlos Reyes"      data-name="Carlos Reyes"      data-desc="Systems architect. Carlos designed the intake manifold that ensures consistent pressure across all filter stages."></div>
+                <div class="carousel-card-data" data-img="lotm.jpg" data-alt="Ana Lim"           data-name="Ana Lim"           data-desc="Safety compliance officer. Ana ensured every component meets international workplace air quality standards."></div>
+                <div class="carousel-card-data" data-img="lotm.jpg" data-alt="Miguel Torres"     data-name="Miguel Torres"     data-desc="Product designer. Miguel translated complex engineering specs into the clean, minimal form factor you see today."></div>
+                <div class="carousel-card-data" data-img="lotm.jpg" data-alt="Sofia Garcia"      data-name="Sofia Garcia"      data-desc="Research lead. Sofia conducted all field testing in commercial kitchens and industrial workshops to validate performance."></div>
+                <div class="carousel-card-data" data-img="lotm.jpg" data-alt="Ramon Villanueva"  data-name="Ramon Villanueva"  data-desc="Electronics integration. Ramon built the sensor array that monitors smoke density and adjusts intake speed in real time."></div>
+                <div class="carousel-card-data" data-img="lotm.jpg" data-alt="Lia Mendoza"       data-name="Lia Mendoza"       data-desc="Business development. Lia secured the partnerships and funding that brought Vent it Out from a concept to a working product."></div>
+                <div class="carousel-card-data" data-img="lotm.jpg" data-alt="Paolo Aquino"      data-name="Paolo Aquino"      data-desc="Manufacturing lead. Paolo oversees production quality and works directly with fabrication partners to hit tolerances."></div>
+                <div class="carousel-card-data" data-img="lotm.jpg" data-alt="Bianca Cruz"       data-name="Bianca Cruz"       data-desc="UX and communications. Bianca crafts the experience around the product — from install guides to the interface you're reading now."></div>
+            </div>
+
+            <div class="carousel-wrapper">
+                <button class="carousel-btn carousel-prev" aria-label="Previous">&#10094;</button>
+
+                <div class="carousel-viewport">
+                    <div class="carousel-slots">
+                        <div class="carousel-slot"><div class="slot-inner"></div></div>
+                        <div class="carousel-slot"><div class="slot-inner"></div></div>
+                        <div class="carousel-slot"><div class="slot-inner"></div></div>
+                        <div class="carousel-slot"><div class="slot-inner"></div></div>
+                        <div class="carousel-slot"><div class="slot-inner"></div></div>
+                    </div>
+                </div>
+
+                <button class="carousel-btn carousel-next" aria-label="Next">&#10095;</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 BrandName. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
